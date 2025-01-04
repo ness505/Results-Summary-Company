@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif; /* Fuente principal */
+}
+
+.Principal
+{
+    display: flex;
+    flex-direction: row;
+    height: 430px;
+    width: 600px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 20px 50px hsl(221, 100%, 96%);
+
+    .Blue
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        width: 50%;
+        border-radius:25px;
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box; /*Propiedad para que no afecte el padding al tamaño de la caja*/
+        background: linear-gradient(    /* Fondo con degradado*/
+        to bottom, 
+        hsl(252, 100%, 67%), 
+        hsl(241, 81%, 54%)
+      );
+        
+        h1
+        {
+            font-size: 20px;
+            color: hsl(241, 100%, 89%);
+            font-weight: 500;
+            line-height: 2.3;
+        }
+        h2 
+        {
+            font-size: 25px;
+            color:white;
+            font-weight: 700;
+            margin: 0;
+            line-height: 2;
+        }
+
+        .Circle
+        {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+
+            background: linear-gradient(
+                to bottom, 
+                hsla(256, 72%, 46%, 1), 
+                hsla(241, 72%, 46%, 0)
+            );
+
+            h1 {
+                font-size: 70px;
+                color: white;
+                font-weight: 800;
+                margin: 0;
+                line-height: 1;
+            }
+            h2 {
+                font-size: 15px;
+                font-weight: 500;
+                color:hsl(241, 100%, 89%);
+                margin: 0;
+            }
+            margin-bottom: 10px;
+        }
+
+        p
+        {
+            font-size: 15px;
+            text-align: center;
+            color: hsl(241, 100%, 89%);
+            margin: 0;
+            padding-left: 20px;
+        }
+
+    }
+    .White
+    {
+        width: 50%;
+
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        box-sizing: border-box;
+        padding-top: 15px;
+
+        h1 {
+            font-size: 20px;
+            line-height: 2;
+            color: hsl(224, 30%, 27%);
+        }
+
+        .box{
+            position: relative;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: max-content;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            font-weight: 700;
+            p{
+                margin: 0;
+            }
+            .texto{
+                display: flex;
+                img{
+                    padding-right: 10px;
+                }
+            }
+            .numbers{
+                color: gray;
+            }            
+        }
+
+        .Button
+        {
+            padding: 15px;
+            color: white;
+            font-size: 15px;
+            background-color: hsl(224, 30%, 27%);
+            border-radius: 25px;
+            border-style: none;
+            margin-top: 25px;
+        }
+        .Button:hover
+        {
+            cursor: pointer;
+            background: linear-gradient(    /* Fondo con degradado*/
+                to bottom, 
+                hsl(252, 100%, 67%), 
+                hsl(241, 81%, 54%)
+            );
+        }
+        
+    }
+}
+
+#Reaction{
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 5%);
+}
+#Memory
+{
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 5%);
+}
+#Verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 5%);
+}
+#Visual
+{
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 5%);
+}
+
+.attribution
+{
+    position: relative;
+    bottom: -100px;
+}
