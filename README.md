@@ -39,7 +39,7 @@ This is how my mobile solution looks like
 
 ### Links
 
-- Solution URL: [Frontend Solution](https://your-solution-url.com](https://www.frontendmentor.io/solutions/responsive-page-about-cognitive-results-using-html-css-json-and-js-cczQVBv26g))
+- Solution URL: [Frontend Solution](https://www.frontendmentor.io/solutions/responsive-page-about-cognitive-results-using-html-css-json-and-js-cczQVBv26g)
 - Live Site URL: [Results-Summary-Company](https://ness505.github.io/Results-Summary-Company/)
 
 ## My process
