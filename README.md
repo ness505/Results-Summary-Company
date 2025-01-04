@@ -29,8 +29,11 @@ Users should be able to:
 
 ### Screenshot
 
+This is how my desktop solution looks like 
 ![Desktop Solution](/design/My_Desktop_Solution.png)
-![Mobile Solution](/design/My_Desktop_Solution.png)
+
+This is how my mobile solution looks like
+![Mobile Solution](/design/My_Mobile_Solution.png)
 
 ### Links
 
